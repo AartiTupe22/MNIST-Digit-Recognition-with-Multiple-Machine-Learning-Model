@@ -11,19 +11,11 @@ In a separate Jupyter Notebook file (test mnist data.ipynb), the saved machine l
 
 Overall, this project encompasses the training of multiple machine learning models for MNIST digit recognition, model evaluation with various metrics, and the application of these models to predict and visualize random handwritten digits from the test dataset.
 
-#Dataset description
-#1. Content:
-
+#############Dataset description#########################
 The MNIST dataset contains a set of 28x28 pixel grayscale images of handwritten digits (0 to 9).
 Each image is labeled with the corresponding digit it represents.
-#2. Size:
-
 The dataset consists of 60,000 training images and 10,000 test images.
 It's often divided into a training set and a test set, making it suitable for training and evaluating machine learning models.
-#3. Usage:
-
 MNIST is frequently used for tasks like digit recognition, image classification, and deep learning model benchmarking.
-
 Researchers and machine learning practitioners often use MNIST as a starting point for experimenting with various machine learning algorithms.
-
 Note : For mnist_train.csv  and mnist_test.csv dataset you can download from Kaggle as well as GitHub.
