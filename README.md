@@ -1,23 +1,12 @@
 # MNIST-Digit-Recognition-with-Multiple-Machine-Learning-Model
-The project objective was to recognize handwritten digits within the MNIST dataset, it involves multi-class classification. In this context, the goal is to classify handwritten digits into one of the ten possible categories, which correspond to the digits 0 through 9.
 
-In this project, a variety of machine learning models, including Support Vector Machines (SVM), k-Nearest Neighbors (k-NN), Logistic Regression, Decision Trees, and Random Forest Classifier, were applied to perform handwritten digit recognition on the MNIST dataset. The models were trained using the "mnist_train.csv" dataset, and a structured approach was taken with two key functions: one for training and another for testing. These trained models were saved in .pkl (pickle) format for future use.
-
-Before training the models, the dataset was preprocessed using the Min-Max scaling method (MinMaxScaler) to normalize the data.
-
-For model evaluation, various performance metrics such as accuracy, precision, recall, confusion matrices, F1 scores, and classification report were used to assess the models' effectiveness.
-
-In a separate Jupyter Notebook file (test mnist data.ipynb), the saved machine learning models were loaded, and predictions were made on randomly selected handwritten digits from the "mnist_test.csv dataset". The project's findings and results were visualized using the Matplotlib and Seaborn libraries.
-
-Overall, this project encompasses the training of multiple machine learning models for MNIST digit recognition, model evaluation with various metrics, and the application of these models to predict and visualize random handwritten digits from the test dataset.
-
-#############Dataset description#########################
+Title: "MNIST Digit Recognition Project Overview"
 
 
-The MNIST dataset contains a set of 28x28 pixel grayscale images of handwritten digits (0 to 9).
-Each image is labeled with the corresponding digit it represents.
-The dataset consists of 60,000 training images and 10,000 test images.
-It's often divided into a training set and a test set, making it suitable for training and evaluating machine learning models.
-MNIST is frequently used for tasks like digit recognition, image classification, and deep learning model benchmarking.
-Researchers and machine learning practitioners often use MNIST as a starting point for experimenting with various machine learning algorithms.
-Note : For mnist_train.csv  and mnist_test.csv dataset you can download from Kaggle as well as GitHub.
+The project aims to recognize handwritten digits (0-9) from the MNIST dataset using machine learning models like SVM, k-NN, Logistic Regression, Decision Trees, and Random Forest Classifier. The dataset was preprocessed using Min-Max scaling. Models were trained, evaluated using various metrics, and applied to predict digits from the test set.
+
+Dataset Description:
+
+The MNIST dataset comprises 28x28 pixel grayscale images of handwritten digits (0 to 9), with each image labeled accordingly. It includes 60,000 training images and 10,000 test images, commonly divided for model evaluation. MNIST serves as a benchmark for digit recognition, image classification, and machine learning algorithm experimentation.
+
+Note: the MNIst_train and mnist_test csv you can download it from kaggle or github
